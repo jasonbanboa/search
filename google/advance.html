@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advance Search</title>
+        <link rel="stylesheet" href="advance.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="icon">
+                <a href="index.html">Google</a><a href="google-images.html">Google Images</a>
+            </div>
+            <h1>Advance Search</h1>
+            <hr>
+        </div>
+        <div class="main">
+            <span>Find pages with...</span>
+            <form action="https://www.google.com/search" method="get">
+                <label>all these words:<input type="text" id="q" name="q"></label>
+                <label>this exact word or phrase:<input type="text" id="as_eqp" name="as_epq"></label>
+                <label>any of these words:<input type="text" id="as_oq" name="as_oq"></label>
+                <label>none of these words:<input type="text" id="as_eq" name="as_eq"></label>
+                <span class="instruction" id="top">To do this in the search box.</span>
+                <span class="instruction" id="one">Type the important words: tri-colour rat terrier</span>
+                <span class="instruction" id="two">Put exact words in quotes: "rat terrier"</span>
+                <span class="instruction" id="three">Type OR between all the words you want: miniature OR standard</span>
+                <span class="instruction" id="four">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+                <input type="submit" value="Advance Search">
+            </form>
+        </div>
+    </body>
+</html>
